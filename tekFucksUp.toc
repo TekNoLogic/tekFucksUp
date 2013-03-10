@@ -1,0 +1,12 @@
+## Interface: 30000
+
+## Title: tekFucksUp
+## Author: Tekkub Stoutwrithe
+## Version: Alpha
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+externals\events.lua
+
+tekFucksUp.lua
