@@ -81,7 +81,9 @@ function ns.UPDATE_FACTION()
 	rested:Hide()
 
 	local name, standingID, barMin, barMax, barValue = GetWatchedFactionInfo()
-	if not name then return	bar:SetWidth(0) end
+	if not name then return	frame:Hide() end
+
+	frame:Show()
 
 	local color = FACTION_BAR_COLORS[standingID]
 	tex:SetVertexColor(color.r, color.g, color.b)
