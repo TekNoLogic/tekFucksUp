@@ -61,6 +61,9 @@ function ns.OnLoad()
 	end
 end
 
+function ns.OnLogin()
+	ns.PLAYER_XP_UPDATE()
+end
 
 function ns.PLAYER_XP_UPDATE()
 	if UnitLevel("player") == MAX_PLAYER_LEVEL then
